@@ -1,0 +1,213 @@
+#Player{
+    height: 102px;
+    width: 12px;
+    background-color: #10e050;
+    position: absolute;
+    left: 20px;
+    border-radius: 4px;
+}
+
+#Player::before{
+    content: "";
+    height: 124px;
+    width: 29px;
+    background-color: rgba(0, 255, 0, 0.95);
+    position: inherit;
+    top: -10px;
+    left: -8px;
+    filter: blur(2rem);
+}
+
+#Player::after{
+    content: "";
+    height: 98px;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: inherit;
+    top: 2px;
+    left: 2px;
+    border-radius: 3px;
+}
+
+
+
+#Enemy{
+    height: 102px;
+    width: 12px;
+    background-color: rgba(248, 8, 8, 0.95);
+    position: absolute;
+    left: 20px;
+    border-radius: 4px;
+}
+
+#Enemy::before{
+    content: "";
+    height: 124px;
+    width: 29px;
+    background-color: rgba(229, 15, 15, 0.95);
+    position: inherit;
+    top: -10px;
+    left: -8px;
+    filter: blur(2rem);
+}
+
+#Enemy::after{
+    content: "";
+    height: 98px;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: inherit;
+    top: 2px;
+    left: 2px;
+    border-radius: 4px;
+}
+
+
+#Ball{
+    height: 30px;
+    width: 30px;
+    background-color: #f2a615;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#Ball::before{
+    content: "";
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: inherit;
+    border-radius: 50%;
+    top: 2.5px;
+    left: 2.48px;
+}
+
+#Ball::after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: inherit;
+    background-color: #f2a615;
+    border-radius: 50%;
+    filter: blur(2rem);
+    top: -4px;
+    left: -4px;
+    
+}
+
+#Time{
+    position: absolute;
+    font-weight: 600;
+    top: 20px;
+    left: 500px;
+}
+
+#Round{
+    position: absolute;
+    font-weight: 600;
+    top: 60px;
+    left: 500px;
+}
+
+#Score{
+    position: absolute;
+    font-weight: 600;
+    top: 100px;
+    left: 500px;
+}
+
+
+
+
+#BorderLeft{
+    height: 740px;
+    width: 2px;
+    position: absolute;
+    background-color: black;
+    top: 200px;
+}
+
+#BorderRight{
+    height: 740px;
+    width: 2px;
+    position: absolute;
+    background-color: black;
+    top: 200px;
+    left: 920px;
+}
+
+#BorderTop{
+    height: 2px;
+    width: 910px;
+    position: absolute;
+    background-color: black;
+    top: 200px;
+    left: 10px;
+}
+
+#BorderBottom{
+    height: 2px;
+    width: 910px;
+    position: absolute;
+    background-color: black;
+    top: 938px;
+    left: 10px;
+}
+
+#WhiteOutLeft{
+    background-color: white;
+    height: 940px;
+    width: 8px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+#WhiteOutRight{
+    background-color: white;
+    height: 940px;
+    width: 20px;
+    position: absolute;
+    left: 922px;
+    top: 40px;
+}
+
+#WhiteOutBottom{
+    background-color: white;
+    height: 40px;
+    width: 930px;
+    position: absolute;
+    left: 0px;
+    top: 940px;
+}
+
+#WhiteOutTop{
+    background-color: white;
+    height: 48px;
+    width: 930px;
+    position: absolute;
+    left: 0px;
+    top: 152px;
+}
+
+#WhiteOutExtra1{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#WhiteOutExtra2{
+    background-color: white;
+    height: 200px;
+    width: 242px;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+
+
+
+
